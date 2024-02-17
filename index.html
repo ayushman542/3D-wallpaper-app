@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Wallpaper</title>
+</head>
+<body class="bg-gray-200 dark:bg-white-200">
+
+    <!-- Hero Section -->
+    <section class="relative bg-[url('https://s3.ap-south-1.amazonaws.com/photos.api/pexels-photo-1741205.jpeg')] bg-cover bg-center bg-no-repeat">
+        <div class="absolute inset-0 bg-white/75 sm:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
+        <div class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:items-center lg:px-8 lg:h-screen sm:h-96">
+            <div class="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+                <h1 class="text-3xl font-extrabold sm:text-5xl text-black-400">
+                    Download Free Wallpapers
+                    <strong class="block font-extrabold text-rose-700"> Give it a try once </strong>
+                </h1>
+                <p class="mt-4 max-w-lg sm:text-xl/relaxed">
+                    "Unlock the beauty of every moment with our stunning wallpaper collection."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Separator -->
+    <span class="flex items-center mt-10">
+        <span class="h-px flex-1 bg-rose"></span>
+        <span class="shrink-0 px-6  text-xl dark:text-black">Download 3D Wallpapers</span>
+        <span class="h-px flex-1 bg-rose"></span>
+    </span>
+
+    <!-- Search Form -->
+    <form id="as" class="mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-32 mt-5">
+        <div class="mb-5">
+            <!-- <label for="default-search" class="mb-2 sumbit font-medium text-black-500 dark:text-black">
+                Search Wallpaper
+            </label> -->
+            <div class="relative my-3">
+                <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                    <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+                    </svg>
+                </div>
+                <input type="search" id="default-search"
+                    class="block w-full search p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 transition-all ease-in-out duration-300"
+                    placeholder="Search Wallpaper Name" required>
+                <button type="submit"
+                    class="text-white sumbit absolute right-2.5 bottom-2.5 bg-rose-600 hover:bg-rose-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-4 py-2 dark:bg-rose-600 dark:hover:bg-grey-700 dark:focus:ring-blue-800 transition-all ease-in-out duration-300">
+                    Send 🚀
+                </button>
+            </div>
+        </div>
+    </form>
+
+    <!-- Image Grid -->
+    <div id="imageGrid" class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 lg:gap-6 p-10"></div>
+
+    <!-- Share Button -->
+    <div class="fixed top-4 right-4">
+        <button class="bg-blue-600 hover:bg-blue-600 text-white rounded-full p-2 focus:outline-none focus:ring focus:border-blue-300 transition-all ease-in-out duration-300"
+            onclick="shareContent()">
+            <i class="fas fa-share"></i>
+        </button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
+
+
