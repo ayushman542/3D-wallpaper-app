@@ -25,4 +25,4 @@ The 3D Wallpaper Collection is a collection of high-quality 3D wallpapers that y
 To use the 3D Wallpaper Collection, simply clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/3D-Wallpaper-Collection.git
+git clone https://github.com/ayushman542/3D-Wallpaper-Collection.git
