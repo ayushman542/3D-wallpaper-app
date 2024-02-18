@@ -20,9 +20,4 @@ The 3D Wallpaper Collection is a collection of high-quality 3D wallpapers that y
 - Responsive design for various screen sizes
 - Open-source and free to use
 
-## Installation
 
-To use the 3D Wallpaper Collection, simply clone this repository to your local machine:
-
-```bash
-git clone https://github.com/ayushman542/3D-Wallpaper-Collection.git
